@@ -1,9 +1,12 @@
 <script>
 import Header from './components/header.vue';
+import Intro from './components/intro.vue';
+
 export default {
   name: 'App',
   components:{
-    Header
+    Header,
+    Intro,
   },
 }
 
@@ -12,8 +15,9 @@ export default {
 
 <template>
 
-  <div>
+  <div class="wrapper">
     <Header />
+    <Intro />
   </div>
   
 
@@ -26,5 +30,49 @@ export default {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #f0f8ff;
   }
+
+  
+  .wrapper {
+    position: relative;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .say-hello button{
+    outline: none;
+    border-radius: 2rem;
+    width: 4.8rem;
+    height: 1.8rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+  @media screen and (min-width: 600px){
+    .wrapper {
+      margin: 0 5rem;
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    .wrapper {
+      margin: 0 12rem;
+    }
+    .say-hello button{
+      width: 6rem;
+      height: 2.2rem;
+      cursor: pointer;
+    }
+    .say-hello button:hover{
+      transition: all 0.5s ease-in-out ;
+    }
+  }
+
+
+
 </style>
