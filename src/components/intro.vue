@@ -111,7 +111,7 @@ export default{
     }
     .name{
         margin: 1rem 0;
-        font-size: 4rem;
+        font-size: 3.8rem;
         line-height: 3.5rem;
     }
     .intro1{
@@ -125,6 +125,18 @@ export default{
         border-radius: 50%;
         position: relative;
         box-shadow: 1px 5px 1px #1211135e;
+    }
+}
+
+@media screen and (max-height: 730px) {
+    .name{
+        margin: 0.2rem 0;
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    .illustration div{
+        width: 11rem;
+        height: 11rem;
     }
 }
 
