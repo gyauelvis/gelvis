@@ -135,8 +135,8 @@ export default{
         line-height: 2.5rem;
     }
     .illustration div{
-        width: 11rem;
-        height: 11rem;
+        width: 9rem;
+        height: 9rem;
     }
 }
 
