@@ -16,7 +16,7 @@
                 </div>
                 <div class="illustration">
                     <div>
-                        <img src="./icons/avatar.png" alt="">
+                        <img src="./icons/avatar.png" class="illustrationImg" alt="" @mouseover="shake()" @mouseleave="unShake()">
                     </div>
                 </div>
             </div>
@@ -49,6 +49,12 @@ export default{
                 }
             },4000);
         },
+        shake(){
+            document.querySelector(".illustrationImg").classList.add("shake");
+        },
+        unShake(){
+            document.querySelector(".illustrationImg").classList.remove("shake");
+        }
     },
     mounted(){
         this.changeWord();
@@ -188,5 +194,20 @@ export default{
     }
 }
 
+.shake{
+    animation: shake 300ms ease-in-out;
+}
+@keyframes shake {
+    33%{
+        transform: rotate(2deg);
+    }
+    66%{
+        transform: rotate(-4deg);
+    }
+    100%{
+        transform: rotate(2deg);
+    }
+    
+}
 
 </style>
