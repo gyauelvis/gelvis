@@ -31,6 +31,11 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+
 }
 .sIcon::after,.sIcon::before{
     content: " ";
@@ -40,6 +45,11 @@
     background-color: #121113;
 
 }
+
+.icon {
+    padding: 0 0.2rem;
+}
+
 .icon svg{
     width: 2rem;
     height: 2rem;

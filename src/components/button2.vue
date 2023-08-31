@@ -25,12 +25,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .say-hello button{
  border: 1px solid #121113;
  background-color: #f0f8ff;
  color:#121113;
+ font-weight: bold;
  box-shadow: 1px 2px 1px #121113;
 }
 

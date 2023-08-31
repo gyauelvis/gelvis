@@ -15,7 +15,7 @@
                 </div>
                 <div class="illustration">
                     <div>
-                        <img src="./icons/gelvisill.png" alt="">
+                        <img src="./icons/avatar.png" alt="">
                     </div>
                 </div>
             </div>
@@ -44,6 +44,7 @@ export default{
     justify-content: center;
     width:100%;
     height: calc(100vh - 6rem);
+    position: relative;
 }
 .intro-wrapper{
     margin: 0 2rem;
@@ -63,7 +64,7 @@ export default{
     font-family:'Playfair Display',sans-serif;
     font-weight: bolder;
     font-size: 2.8rem;
-    line-height: 3.2rem;
+    line-height: 3.5rem;
 }
 .what-i-do{
     line-height: 1.3rem;
@@ -81,8 +82,8 @@ export default{
 }
 .illustration div{
     background-color: #1211135e;
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     position: relative;
     box-shadow: 1px 5px 1px #1211135e;
