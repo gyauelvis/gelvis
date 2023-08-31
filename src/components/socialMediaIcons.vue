@@ -32,7 +32,7 @@
     flex-direction: row;
     align-items: center;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
     left: 0;
     right: 0;
 
