@@ -16,7 +16,7 @@
                 </div>
                 <div class="illustration">
                     <div>
-                        <Transition class="shake"><img src="./icons/avatar.png" alt=""></Transition>
+                        <img src="./icons/avatar.png" alt="">
                     </div>
                 </div>
             </div>
@@ -37,26 +37,25 @@ export default{
         sIcon
     },
     methods: {
-        
+        changeWord(){
+            let toggle = true;
+            setInterval(() =>{
+                if(toggle){
+                    document.querySelector(".secondText").textContent = "Frontend Engineer";
+                    toggle = false;
+                }else{
+                    document.querySelector(".secondText").textContent = "Technical Writer";
+                    toggle = true;
+                }
+            },4000);
+        },
+    },
+    mounted(){
+        this.changeWord();
     }
 }
 
-let changeWord = () =>{
-    document.querySelector(".secondText").textContent = "Frontend Engineer";
-    let toggle = true;
-    setInterval(() =>{
-        if(toggle){
-            document.querySelector(".secondText").textContent = "Frontend Engineer";
-            toggle = false;
-        }else
-        {
-            document.querySelector(".secondText").textContent = " Technical Writer";
-            toggle = true;
-        }
-    },4000);
 
-}
-changeWord();
 
 </script>
 <style scoped>
