@@ -31,11 +31,10 @@ export default {
     background: #121113;
     border: none;
 }
-
-@media screen and (min-width: 600px){    
-    .say-hello button:hover{
-        opacity: 80%;
-    }
+.say-hello button:hover{
+    opacity: 80%;
 }
+
+
 
 </style>

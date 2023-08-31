@@ -10,12 +10,13 @@
                         <span>Gyau Boahen Elvis</span>
                     </div>
                     <div class="what-i-do">
-                        I'm a <span class="emp">frontend engineer</span> and a <span class="emp">technical writter.</span>
+                        <span class="firstText">I'm a</span>
+                        <span class="secondText"></span> 
                     </div>
                 </div>
                 <div class="illustration">
                     <div>
-                        <img src="./icons/avatar.png" alt="">
+                        <Transition class="shake"><img src="./icons/avatar.png" alt=""></Transition>
                     </div>
                 </div>
             </div>
@@ -28,13 +29,34 @@
 <script>
 import Button2 from "./button2.vue"
 import sIcon from "./socialMediaIcons.vue"
+
 export default{
     name: "Intro",
     components:{
         Button2,
         sIcon
     },
+    methods: {
+        
+    }
 }
+
+let changeWord = () =>{
+    document.querySelector(".secondText").textContent = "Frontend Engineer";
+    let toggle = true;
+    setInterval(() =>{
+        if(toggle){
+            document.querySelector(".secondText").textContent = "Frontend Engineer";
+            toggle = false;
+        }else
+        {
+            document.querySelector(".secondText").textContent = " Technical Writer";
+            toggle = true;
+        }
+    },4000);
+
+}
+changeWord();
 
 </script>
 <style scoped>
@@ -46,6 +68,7 @@ export default{
     height: calc(100vh - 6rem);
     position: relative;
 }
+
 .intro-wrapper{
     margin: 0 2rem;
 }
@@ -70,8 +93,34 @@ export default{
     line-height: 1.3rem;
 }
 
-.what-i-do span{
+.what-i-do .secondText{
     font-weight: bold;
+}
+.secondText{
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+    margin: 0 0.5rem;
+}
+.secondText::before{
+    content: "";
+    background-color: #f0f8ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 2px solid #59A5D8;
+    animation: type 4s steps(12) infinite;
+}
+
+@keyframes type {
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 
 .illustration{
@@ -128,7 +177,7 @@ export default{
     }
 }
 
-@media screen and (max-height: 730px) {
+@media screen and (max-height: 730px) and (max-width:1025px) {
     .name{
         margin: 0.2rem 0;
         font-size: 2.2rem;

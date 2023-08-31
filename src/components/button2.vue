@@ -30,15 +30,17 @@
  font-weight: bold;
  box-shadow: 1px 2px 1px #121113;
 }
+.say-hello button:hover{
+    background-color: #f0f8ff;
+    transition: all 0.3s ease-in-out;
+}
+
 @media screen and (min-width: 1000px) {
     .say-hello{
         justify-content: start;
 
     }
-    .say-hello button:hover{
-        background-color: #f0f8ff;
-        transition: all 0.3s ease-in-out;
-    }
+   
 }
 
 </style>
