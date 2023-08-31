@@ -1,7 +1,7 @@
 <template>
     <div class="intro">
         <div class="intro-wrapper">
-            <div>
+            <div class="container">
                 <div>
                     <div class="intro1">
                         <span>Hi! My name is</span>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <Button2 msg="Resume" color="#f0f8ff "/>
+            <Button2 msg="Resume"/>
             <sIcon />
         </div>
     </div>
@@ -94,6 +94,38 @@ export default{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .intro1 span,.what-i-do{
+        font-size: x-large;
+    }
+    .what-i-do{
+        line-height: 2rem;
+    }
+    .name{
+        margin: 1rem 0;
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+    .intro1{
+        margin: 0;
+    }
+
+    .illustration div{
+        background-color: #1211135e;
+        width: 18rem;
+        height: 18rem;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 1px 5px 1px #1211135e;
+    }
 }
 
 

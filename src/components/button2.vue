@@ -1,6 +1,6 @@
 <template>
     <div class="say-hello">
-        <button :style="{background:color}">{{msg}}</button>
+        <button>{{msg}}</button>
     </div>
 </template>
 
@@ -11,10 +11,6 @@
         msg:{
             type: String,
             default: 'Button1',
-        },
-        color:{
-            type: String,
-            default: '#121113'
         }
     }
 }
@@ -29,10 +25,20 @@
 }
 .say-hello button{
  border: 1px solid #121113;
- background-color: #f0f8ff;
+ background-color: #59A5D8;
  color:#121113;
  font-weight: bold;
  box-shadow: 1px 2px 1px #121113;
+}
+@media screen and (min-width: 1000px) {
+    .say-hello{
+        justify-content: start;
+
+    }
+    .say-hello button:hover{
+        background-color: #f0f8ff;
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 </style>

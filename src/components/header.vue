@@ -6,7 +6,7 @@
                 menu
             </a>
             <a href="#" class="name">gelvis</a>
-            <Button1 msg ="Say Hello"  />
+            <Button1 msg = "Say Hello"  />
         </nav>
     </header>
 </template>

@@ -41,8 +41,8 @@
     content: " ";
     display: block;
     height: 0.15rem;
-    width:10rem;
-    background-color: #121113;
+    width:100%;
+    background-color: #121113c7;
 
 }
 
@@ -54,4 +54,16 @@
     width: 2rem;
     height: 2rem;
 }
+
+@media screen and (min-width: 600px) {
+    .icon svg{
+        width: 2.5rem;
+        height:2.5rem;
+    }
+    .icon svg:hover{
+        opacity: 90%;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
 </style>
