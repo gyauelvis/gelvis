@@ -76,10 +76,6 @@ export default{
     position: relative;
 }
 
-.intro-wrapper{
-    margin: 0 2rem;
-}
-
 
 .intro1{
     margin: 0.2rem 0;

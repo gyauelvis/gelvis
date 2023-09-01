@@ -1,12 +1,14 @@
 <script>
 import Header from './components/header.vue';
 import Intro from './components/intro.vue';
+import Tech from './components/techs.vue';
 
 export default {
   name: 'App',
   components:{
     Header,
     Intro,
+    Tech
   },
 }
 
@@ -18,6 +20,7 @@ export default {
   <div class="wrapper">
     <Header />
     <Intro />
+    <Tech />
   </div>
   
 
@@ -69,7 +72,7 @@ export default {
       cursor: pointer;
     }
     .say-hello button:hover{
-      transition: all 0.5s ease-in-out ;
+      transition: all 0.5s ease-in-out;
     }
   }
 
@@ -94,6 +97,10 @@ export default {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.intro-wrapper{
+  margin: 0 2rem;
 }
 
 
