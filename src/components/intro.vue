@@ -11,12 +11,14 @@
                     </div>
                     <div class="what-i-do">
                         <span class="firstText">I'm a</span>
-                        <span class="secondText"></span> 
+                        <span class="secondText"></span>
                     </div>
                 </div>
                 <div class="illustration">
                     <div>
-                        <img src="./icons/avatar.png" class="illustrationImg" alt="" @mouseover="shake()" @mouseleave="unShake()">
+                        <div class="illustrationFadeIn">
+                            <img src="./icons/avatar.png" class="illustrationImg" alt="" @mouseover="shake()" @mouseleave="unShake()">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,6 +135,7 @@ export default{
     align-items: center;
     justify-content: center;
     margin: 0.5rem;
+    animation: fadeIn 300ms ease-in-out;
 }
 .illustration div{
     background-color: #1211135e;
@@ -195,7 +198,7 @@ export default{
 }
 
 .shake{
-    animation: shake 300ms ease-in-out;
+    animation: shake 1000ms ease-in-out;
 }
 @keyframes shake {
     33%{
@@ -209,5 +212,29 @@ export default{
     }
     
 }
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    25%{
+        opacity: 0.25;
+        transform: translateX(75px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(50px);
+    }
+    75%{
+        opacity: 0.75;
+        transform: translateX(25px);
+    }
+    75%{
+        opacity: 1;
+        transform: translateX0px);
+    }
+}
+
 
 </style>
