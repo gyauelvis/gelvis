@@ -135,7 +135,7 @@ export default{
     align-items: center;
     justify-content: center;
     margin: 0.5rem;
-    animation: fadeIn 300ms ease-in-out;
+    animation: fadeIn 500ms ease-in-out;
 }
 .illustration div{
     background-color: #1211135e;
@@ -215,7 +215,7 @@ export default{
 
 
 .fadeIn{
-    animation: fadeIn 300ms ease-in-out;
+    animation: fadeIn 500ms ease-in-out;
 }
 
 </style>
