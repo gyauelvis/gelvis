@@ -22,6 +22,7 @@
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
+    animation: fadeIn 300ms ease-in-out;
 }
 .say-hello button{
  border: 1px solid #121113;

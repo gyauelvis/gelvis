@@ -2,18 +2,18 @@
     <div class="intro">
         <div class="intro-wrapper">
             <div class="container">
-                <div>
-                    <div class="intro1">
-                        <span>Hi! My name is</span>
+                    <div class="fadeIn">
+                        <div class="intro1">
+                            <span>Hi! My name is</span>
+                        </div>
+                        <div class="name">
+                            <span>Gyau Boahen Elvis</span>
+                        </div>
+                        <div class="what-i-do">
+                            <span class="firstText" >I'm a</span>
+                            <span class="secondText"></span>
+                        </div>
                     </div>
-                    <div class="name">
-                        <span>Gyau Boahen Elvis</span>
-                    </div>
-                    <div class="what-i-do">
-                        <span class="firstText">I'm a</span>
-                        <span class="secondText"></span>
-                    </div>
-                </div>
                 <div class="illustration">
                     <div>
                         <div class="illustrationFadeIn">
@@ -213,28 +213,9 @@ export default{
     
 }
 
-@keyframes fadeIn {
-    0%{
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    25%{
-        opacity: 0.25;
-        transform: translateX(75px);
-    }
-    50%{
-        opacity: 0.5;
-        transform: translateX(50px);
-    }
-    75%{
-        opacity: 0.75;
-        transform: translateX(25px);
-    }
-    75%{
-        opacity: 1;
-        transform: translateX0px);
-    }
-}
 
+.fadeIn{
+    animation: fadeIn 300ms ease-in-out;
+}
 
 </style>
