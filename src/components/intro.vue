@@ -107,7 +107,7 @@ export default{
 }
 .secondText::before{
     content: "";
-    background-color: #f0f8ff;
+    background-color: #fff8ff;
     width: 100%;
     height: 100%;
     position: absolute;
