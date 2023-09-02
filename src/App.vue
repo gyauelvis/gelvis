@@ -34,6 +34,7 @@ export default {
     margin: 0;
     padding: 0;
     background-color: #fff8ff;
+    scroll-behavior: smooth;
   }
 
   

@@ -12,14 +12,13 @@
             <div class="iconTable">
                 <div class="row-main">
                     <div class="row row1">
-                        <div class="icon"><img src="./icons/js.png" alt=""></div>
-                        <div class="icon"><img src="./icons/css.png" alt=""></div>
+                        <div class="icon"><img src="./icons/js.png" alt="" title="JavaScript"></div>
+                        <div class="icon border-line"><img src="./icons/css.png" alt="" title="CSS"></div>
                     </div>
                     <div class="row">
-                        <div class="icon"><img src="./icons/html5.png" alt=""></div>
-                        <div class="icon"><img src="./icons/github.png" alt=""></div>
+                        <div class="icon"><img src="./icons/html5.png" alt="" title="HTML"></div>
+                        <div class="icon border-line"><img src="./icons/github.png" alt="" title="GitHub"></div>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -74,7 +73,35 @@
         border-bottom: 1px solid #000;
     }
     .icon{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
         padding: 1rem 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .border-line{
+        border-left: 1px solid #000;
     }
 
+    @media screen and (min-width: 1200px) {
+        .row-main{
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        .border-line{
+            border-left: 0px;
+        }
+        .row1{
+            border-bottom: 0;
+        }
+        
+        .icon{
+            padding: 2rem 5.5rem;
+            
+        }
+    }
 </style>
