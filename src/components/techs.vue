@@ -10,14 +10,24 @@
                 </span>
             </div>
             <div class="iconTable">
-                <div class="row-main">
-                    <div class="row row1">
+                <div class="row-main row0">
+                    <div class="row row1 row-r">
                         <div class="icon"><img src="./icons/js.png" alt="" title="JavaScript"></div>
-                        <div class="icon border-line"><img src="./icons/css.png" alt="" title="CSS"></div>
+                        <div class="icon border-line"><img src="./icons/tailwind.png" alt="" class="vue" title="TailwindCSS"></div>
+                    </div>
+                    <div class="row row1">
+                        <div class="icon"><img src="./icons/css.png" alt="" title="CSS"></div>
+                        <div class="icon border-line"><img src="./icons/github.png" alt="" title="GitHub"></div>
+                    </div>
+                </div>
+                <div class="row-main">
+                    <div class="row row1 row-r">
+                        <div class="icon"><img src="./icons/vue.png" class="vue" alt="" title="Vue.js"></div>
+                        <div class="icon border-line"><img src="./icons/html5.png" alt="" title="HTML"></div>
                     </div>
                     <div class="row">
-                        <div class="icon"><img src="./icons/html5.png" alt="" title="HTML"></div>
-                        <div class="icon border-line"><img src="./icons/github.png" alt="" title="GitHub"></div>
+                        <div class="icon"><img src="./icons/git.png" alt="" class="vue"  title="GIT"></div>
+                        <div class="icon border-line"><img src="./icons/vscode.png" alt="" class="vue" title="GitHub"></div>
                     </div>
                 </div>
             </div>
@@ -31,6 +41,10 @@
     }
 </script>
 <style scoped>
+    .vue{
+        width: 99px;
+        height: 99px;
+    }
     .container{
         margin: 2rem 0;
     }
@@ -67,7 +81,6 @@
         flex-direction: row;
         align-content: center;
         justify-content: space-evenly;
-        
     }
     .row1{
         border-bottom: 1px solid #000;
@@ -80,7 +93,6 @@
         padding: 1rem 0;
         width: 100%;
         height: 100%;
-        
     }
     .border-line{
         border-left: 1px solid #000;
@@ -90,18 +102,21 @@
         .row-main{
             flex-direction: row;
             justify-content: center;
-            
+            border: 0;
         }
         .border-line{
             border-left: 0px;
         }
-        .row1{
-            border-bottom: 0;
-        }
         
         .icon{
-            padding: 2rem 5.5rem;
+            padding: 2rem 4.3rem;
             
+        }
+        .row1{
+            border-bottom: 0px ;
+        }
+        .row0{
+            border-bottom: 1px solid #000;
         }
     }
 </style>

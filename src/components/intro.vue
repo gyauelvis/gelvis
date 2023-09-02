@@ -194,14 +194,18 @@ export default{
 }
 
 .shake{
-    animation: shake 1000ms ease-in-out;
+    animation: shake 1000ms ease-in-out infinite;
 }
 @keyframes shake {
-    33%{
-        transform: rotate(2deg);
-    }
-    66%{
+    25%{
         transform: rotate(-4deg);
+    }
+    50%{
+        transform: rotate(-4deg);
+    }
+    75%{
+        transform: rotate(2deg);
+
     }
     100%{
         transform: rotate(2deg);
