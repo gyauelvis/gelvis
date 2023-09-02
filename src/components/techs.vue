@@ -1,5 +1,5 @@
 <template>
-    <div class="container ">
+    <div class="container" v-motion-slide-visible-bottom>
         <div class="title">
             Technologies
         </div>

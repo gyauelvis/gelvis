@@ -77,28 +77,6 @@ export default {
     }
   }
 
-  @keyframes fadeIn {
-    0%{
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    25%{
-        opacity: 0.25;
-        transform: translateY(75px);
-    }
-    50%{
-        opacity: 0.5;
-        transform: translateY(50px);
-    }
-    75%{
-        opacity: 0.75;
-        transform: translateY(25px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
 
 .intro-wrapper{
   margin: 0 2rem;
