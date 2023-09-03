@@ -48,12 +48,7 @@
     .container{
         margin: 2rem 0;
     }
-    .title{
-        font-family: 'Montserrat', sans-serif;
-        font-size: large;
-        font-weight: bold;
-        padding: 1rem 0;
-    }
+
     .intro{
         font-family:'Playfair Display',sans-serif;
         font-weight: bolder;

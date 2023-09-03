@@ -1,5 +1,5 @@
 <template>
-    <div class="intro" >
+    <div class="intro">
         <div class="intro-wrapper">
             <div class="container">
                     <div class="fadeIn">

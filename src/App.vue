@@ -2,13 +2,15 @@
 import Header from './components/header.vue';
 import Intro from './components/intro.vue';
 import Tech from './components/techs.vue';
+import Blog from './components/blogs.vue';
 
 export default {
   name: 'App',
   components:{
     Header,
     Intro,
-    Tech
+    Tech,
+    Blog
   },
 }
 
@@ -21,6 +23,7 @@ export default {
     <Header />
     <Intro />
     <Tech />
+    <Blog />
   </div>
   
 
@@ -37,7 +40,13 @@ export default {
     scroll-behavior: smooth;
   }
 
-  
+  .title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
   .wrapper {
     position: relative;
     margin: 0 1rem;
