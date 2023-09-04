@@ -28,6 +28,11 @@
     }
 </script>
 <style scoped>
+.blogImg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
     .blogBox{
         display: flex;
         align-items: center;

@@ -63,15 +63,7 @@ export default {
     justify-content: center;
   }
 
-  .say-hello button{
-    outline: none;
-    border-radius: 2rem;
-    width: 4.8rem;
-    height: 1.8rem;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;
-}
+
 
 
 

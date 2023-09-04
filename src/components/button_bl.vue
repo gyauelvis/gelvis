@@ -1,6 +1,6 @@
 <template>
     <div class="say-hello">
-        <button :style="{background:color}">{{msg}}</button>
+        <a :style="{background:color}" :href="{link}">{{msg}}</a>
 
     </div>
 </template>
@@ -17,6 +17,10 @@ export default {
         color:{
             type: String,
             default: '#121113'
+        },
+        link:{
+            type: String,
+            default: '#',
         }
     }
 }
@@ -27,11 +31,19 @@ export default {
 .say-hello{
     font-family: 'Montserrat', sans-serif;
 }
-.say-hello button{
+.say-hello a{
+    padding: 0.5rem 1rem;
+    font-size: small;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.say-hello a{
     background: #121113;
     border: none;
+    text-decoration: none;
+    color: #fff8ff;
 }
-.say-hello button:hover{
+.say-hello a:hover{
     opacity: 80%;
 }
 

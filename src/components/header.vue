@@ -2,9 +2,6 @@
     <header>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <nav class="nav-bar">
-            <a href="#" class="material-symbols-outlined" id="menu">
-                menu
-            </a>
             <a href="#" class="name">gelvis</a>
             <Button1 msg = "Say Hello"  />
         </nav>
@@ -38,7 +35,7 @@ nav {
     height:4rem;
 }
 
-.material-symbols-outlined{    
+.material-symbols-outlined{
     color: #121113;
     font-size: x-large;
     transform: rotate(90deg);
@@ -57,7 +54,6 @@ nav {
     font-weight: bold;
     color: #59A5D8;
     font-weight: 600;
-    display: none;
 }
 
 .name::before{

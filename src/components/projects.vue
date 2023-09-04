@@ -7,10 +7,10 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">WordHaven</div>
-                <Button msg="Code"/>
+                <Button msg="Code" link = "https://github.com/gyauelvis/WordHaven.git"/>
             </div>
-            <a href="https://dev.to/gyauelvis/a-beginners-guide-polymorphism-virtual-functions-and-abstract-classes-1m6" class="blogImg">
-                <img src="./projects/wordhaven.jpg" alt="a-beginners-guide-polymorphism-virtual-functions-and-abstract-classes">
+            <a href="https://wordhaven-international-church.vercel.app/" class="blogImg">
+                <img src="./projects/wordhaven.jpg" alt="Word Haven International Church">
             </a>
             <div class="techStack blogTitle">
                 Built a static website for the Worldhaven International Church. Stack Used: HTML, CSS, JavaScript
@@ -19,10 +19,10 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Tonaton Estate</div>
-                <Button msg="Code"/>
+                <Button msg="Code" link = "https://github.com/gyauelvis/tonaton-estate.git"/>
             </div>
-            <a href="https://dev.to/gyauelvis/mastering-background-image-darkening-with-css-simple-yet-effective-techniques-1cmn" class="blogImg">
-                <img src="./projects/tonaton.jpg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
+            <a href="https://tonaton-estate.vercel.app/" class="blogImg">
+                <img src="./projects/tonaton.jpg" alt="Tonaton">
             </a>
             <div class="blogTitle">
                 A clone of the popular Ghanaian Ecommerce app, Tonaton Estate. Stack used: HTML,Tailwind CSS, JavaScript
@@ -31,10 +31,10 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">DevQuiz</div>
-                <Button msg="Code"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/devQuiz.git"/>
             </div>
-            <a href="https://dev.to/gyauelvis/mastering-background-image-darkening-with-css-simple-yet-effective-techniques-1cmn" class="blogImg">
-                <img src="./projects/devquiz.jpeg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
+            <a href="https://devquiz-peach.vercel.app/" class="blogImg">
+                <img src="./projects/devquiz.jpeg" alt="Dev Quiz">
             </a>
             <div class="blogTitle">
                 A Quiz application that queries player on various programming languages. Stack Used: HTML, Tailwind CSS, JavaScript
@@ -43,9 +43,9 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Student Portal</div>
-                <Button msg="Code"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal.git"/>
             </div>
-            <a href="https://dev.to/gyauelvis/mastering-background-image-darkening-with-css-simple-yet-effective-techniques-1cmn" class="blogImg">
+            <a href="https://studentportal-three.vercel.app/" class="blogImg">
                 <img src="./projects/studentPortal.jpg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
             </a>
             <div class="blogTitle">
@@ -55,10 +55,10 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Dictionary</div>
-                <Button msg="Code"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal.git"/>
             </div>
-            <a href="https://dev.to/gyauelvis/mastering-background-image-darkening-with-css-simple-yet-effective-techniques-1cmn" class="blogImg">
-                <img src="./projects/dictionary.jpg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
+            <a href="https://studentportal-three.vercel.app/" class="blogImg">
+                <img src="./projects/dictionary.jpg" alt="Dictionary App">
             </a>
             <div class="blogTitle">
                Made a dictionary app using html, css and javascript.
