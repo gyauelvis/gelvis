@@ -55,9 +55,9 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Dictionary</div>
-                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/dictionary"/>
             </div>
-            <a href="https://studentportal-three.vercel.app/" class="blogImg">
+            <a href="https://dictionarygelvis.vercel.app/" class="blogImg">
                 <img src="./projects/dictionary.jpg" alt="Dictionary App">
             </a>
             <div class="blogTitle">
