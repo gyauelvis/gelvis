@@ -3,6 +3,7 @@ import Header from './components/header.vue';
 import Intro from './components/intro.vue';
 import Tech from './components/techs.vue';
 import Blog from './components/blogs.vue';
+import Project from './components/projects.vue';
 
 export default {
   name: 'App',
@@ -10,7 +11,8 @@ export default {
     Header,
     Intro,
     Tech,
-    Blog
+    Blog,
+    Project
   },
 }
 
@@ -24,6 +26,7 @@ export default {
     <Intro />
     <Tech />
     <Blog />
+    <Project />
   </div>
   
 
@@ -45,6 +48,7 @@ export default {
     font-size: large;
     font-weight: bold;
     padding: 1rem 0;
+    color:  #121113;
 }
 
   .wrapper {
@@ -65,6 +69,8 @@ export default {
     font-family: 'Montserrat', sans-serif;
     font-size: small;
 }
+
+
 
   @media screen and (min-width: 600px){
     .wrapper {
