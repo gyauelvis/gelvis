@@ -4,6 +4,7 @@ import Intro from './components/intro.vue';
 import Tech from './components/techs.vue';
 import Blog from './components/blogs.vue';
 import Project from './components/projects.vue';
+import Footer from './components/footer.vue'
 
 export default {
   name: 'App',
@@ -12,7 +13,8 @@ export default {
     Intro,
     Tech,
     Blog,
-    Project
+    Project,
+    Footer
   },
 }
 
@@ -27,6 +29,7 @@ export default {
     <Tech />
     <Blog />
     <Project />
+    <Footer />
   </div>
   
 
