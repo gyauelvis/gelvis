@@ -1,6 +1,6 @@
 <template>
     <div class="say-hello">
-        <a href="./resume/Resume.pdf">{{msg}}</a>
+        <a href="https://docs.google.com/document/d/1ietzMoWkzZitmNFm9Hz1ybeNfQweKJVUPkqrZWPjXqo/edit?usp=sharing">{{msg}}</a>
     </div>
 </template>
 
@@ -13,6 +13,7 @@
             default: 'Button1',
         }
     }
+    
 }
 </script>
 
