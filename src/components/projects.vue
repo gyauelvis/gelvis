@@ -7,7 +7,7 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">WordHaven</div>
-                <Button msg="Code" link = "https://github.com/gyauelvis/WordHaven.git"/>
+                <Button msg="Code" link = "https://github.com/gyauelvis/WordHaven"/>
             </div>
             <a href="https://wordhaven-international-church.vercel.app/" class="blogImg">
                 <img src="./projects/wordhaven.jpg" alt="Word Haven International Church">
@@ -19,7 +19,7 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Tonaton Estate</div>
-                <Button msg="Code" link = "https://github.com/gyauelvis/tonaton-estate.git"/>
+                <Button msg="Code" link = "https://github.com/gyauelvis/tonaton-estate"/>
             </div>
             <a href="https://tonaton-estate.vercel.app/" class="blogImg">
                 <img src="./projects/tonaton.jpg" alt="Tonaton">
@@ -31,7 +31,7 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">DevQuiz</div>
-                <Button msg="Code" link="https://github.com/gyauelvis/devQuiz.git"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/devQuiz"/>
             </div>
             <a href="https://devquiz-peach.vercel.app/" class="blogImg">
                 <img src="./projects/devquiz.jpeg" alt="Dev Quiz">
@@ -43,7 +43,7 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Student Portal</div>
-                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal.git"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal"/>
             </div>
             <a href="https://studentportal-three.vercel.app/" class="blogImg">
                 <img src="./projects/studentPortal.jpg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
@@ -55,7 +55,7 @@
         <div class="blogBox">
             <div class="topBox">
                 <div class="projectTitle">Dictionary</div>
-                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal.git"/>
+                <Button msg="Code" link="https://github.com/gyauelvis/Student_Portal"/>
             </div>
             <a href="https://studentportal-three.vercel.app/" class="blogImg">
                 <img src="./projects/dictionary.jpg" alt="Dictionary App">

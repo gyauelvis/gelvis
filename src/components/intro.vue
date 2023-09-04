@@ -14,7 +14,7 @@
                             <span class="secondText"></span>
                         </div>
                     </div>
-                <div class="illustration" v-motion-fade-visible>
+                <div class="illustration" v-motion-fade-visible >
                     <div>
                         <div class="illustrationFadeIn">
                             <img src="./icons/avatar.png" class="illustrationImg" alt="" @mouseover="shake()" @mouseleave="unShake()">
