@@ -1,6 +1,19 @@
 <template>
     <div class="title">Blogs</div>
     <div class="blogContainer" v-motion-slide-visible-bottom>
+
+        <div class="blogBox">
+            <div class="topBox">
+                
+            </div>
+            <a href="https://dev.to/gyauelvis/a-beginners-guide-to-apis-4ce4" class="blogImg">
+                <img src="./icons/blogImg3.svg" alt="A Comprehensive Guide to APIs and the Fetch API">
+            </a>
+            <div class="blogTitle">
+                A Comprehensive Guide to APIs and the Fetch API🚀
+            </div>
+        </div>
+
         <div class="blogBox">
             <div class="topBox">
                 
