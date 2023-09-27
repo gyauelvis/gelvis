@@ -1,6 +1,6 @@
 <template>
     <div class="say-hello">
-        <a href="https://docs.google.com/document/d/1ietzMoWkzZitmNFm9Hz1ybeNfQweKJVUPkqrZWPjXqo/edit?usp=sharing">{{msg}}</a>
+        <a href="./icons/Resume.pdf">{{msg}}</a>
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="say-hello">
-        <a :style="{background:color}" :href="{link}">{{msg}}</a>
+        <a :style="{background:color}" :href="link">{{msg}}</a>
 
     </div>
 </template>
@@ -20,7 +20,7 @@ export default {
         },
         link:{
             type: String,
-            default: '#',
+            default : '#',
         }
     }
 }
