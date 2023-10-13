@@ -10,7 +10,7 @@
                 <img src="./icons/😲.png" alt="A Comprehensive Guide to APIs and the Fetch API">
             </a>
             <div class="blogTitle">
-                Programming Languages Every Developer Should Watch Out For 😲
+                <span>Programming Languages Every Developer Should Watch Out For 😲</span>
             </div>
         </div>
 
@@ -22,7 +22,7 @@
                 <img src="./icons/blogImg3.svg" alt="A Comprehensive Guide to APIs and the Fetch API">
             </a>
             <div class="blogTitle">
-                A Comprehensive Guide to APIs and the Fetch API🚀
+                <span>A Comprehensive Guide to APIs and the Fetch API🚀</span>
             </div>
         </div>
 
@@ -34,7 +34,7 @@
                 <img src="./icons/blogImg.svg" alt="a-beginners-guide-polymorphism-virtual-functions-and-abstract-classes">
             </a>
             <div class="blogTitle">
-                A Beginners Guide: Polymorphism, Virtual Functions, and Abstract Classes With C++👨‍💻
+                <span>A Beginners Guide: Polymorphism, Virtual Functions, and Abstract Classes With C++👨‍💻</span>
             </div>
         </div>
         <div class="blogBox">
@@ -42,7 +42,7 @@
                 <img src="./icons/blogImg1.svg" alt="mastering-background-image-darkening-with-css-simple-yet-effective-techniques">
             </a>
             <div class="blogTitle">
-                Mastering Background Image Darkening with CSS: Simple Yet Effective Techniques😎
+                <span>Mastering Background Image Darkening with CSS: Simple Yet Effective Techniques😎</span>
             </div>
         </div>
     </div>
@@ -75,15 +75,20 @@
     .blogTitle{
         margin: 1rem 0;
         position: absolute;
-        padding: 0.2rem 0.5rem;
+        padding: 0.2rem 0;
+        width: 100%;
         bottom: 0;
         font-family: 'Montserrat', sans-serif;
         line-height: 1.4rem;
+    }
+    .blogTitle span {
+        padding: 0 0.5rem;
     }
 
     .blogTitle::before{
         content: "";
         display: block;
+        margin: 1rem 0;
         width: 100%;
         background-color: #121113;
         height: 1px;
