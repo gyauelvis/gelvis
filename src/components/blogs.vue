@@ -74,12 +74,19 @@
     }
     .blogTitle{
         margin: 1rem 0;
-        border-top: 1px solid #121113;
         position: absolute;
         padding: 0.2rem 0.5rem;
         bottom: 0;
         font-family: 'Montserrat', sans-serif;
         line-height: 1.4rem;
+    }
+
+    .blogTitle::before{
+        content: "";
+        display: block;
+        width: 100%;
+        background-color: #121113;
+        height: 1px;
     }
     .blogImg img{
         width: 100%;
