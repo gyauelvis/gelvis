@@ -6,6 +6,18 @@
             <div class="topBox">
                 
             </div>
+            <a href="https://dev.to/gyauelvis/programming-languages-every-developer-should-watch-out-for-1ak4" class="blogImg">
+                <img src="./icons/😲.png" alt="A Comprehensive Guide to APIs and the Fetch API">
+            </a>
+            <div class="blogTitle">
+                Programming Languages Every Developer Should Watch Out For 😲
+            </div>
+        </div>
+
+        <div class="blogBox">
+            <div class="topBox">
+                
+            </div>
             <a href="https://dev.to/gyauelvis/a-beginners-guide-to-apis-4ce4" class="blogImg">
                 <img src="./icons/blogImg3.svg" alt="A Comprehensive Guide to APIs and the Fetch API">
             </a>
