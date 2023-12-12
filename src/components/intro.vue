@@ -31,6 +31,7 @@
 <script>
 import Button2 from "./button2.vue"
 import sIcon from "./socialMediaIcons.vue"
+import gsap from "gsap";
 
 export default{
     name: "Intro",
@@ -60,6 +61,13 @@ export default{
     },
     mounted(){
         this.changeWord();
+        gsap.from('.intro',{
+            delay: 0.5,
+            duration: 1,
+            y: '+100',
+            autoAlpha:0,
+            ease: "back.out(1.7)",
+        })
     }
 }
 
@@ -74,6 +82,7 @@ export default{
     width:100%;
     height: calc(100vh - 6rem);
     position: relative;
+    color:#1e1e1e;
 }
 
 
@@ -107,7 +116,7 @@ export default{
 }
 .secondText::before{
     content: "";
-    background-color: #fff8ff;
+    background-color: #f1f1fa;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -134,19 +143,14 @@ export default{
     animation: fadeIn 500ms ease-in-out;
 }
 .illustration div{
-    background-color: #1211135e;
     width: 13rem;
     height: 13rem;
     border-radius: 50%;
     position: relative;
-    box-shadow: 1px 5px 1px #1211135e;
 }
 
 .illustration img{
-    margin: -2px 0;
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -172,12 +176,12 @@ export default{
     }
 
     .illustration div{
-        background-color: #1211135e;
+        
         width: 18rem;
         height: 18rem;
         border-radius: 50%;
         position: relative;
-        box-shadow: 1px 5px 1px #1211135e;
+        
     }
 }
 

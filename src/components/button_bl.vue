@@ -15,8 +15,7 @@ export default {
             default: 'Button1',
         },
         color:{
-            type: String,
-            default: '#121113'
+            type: String
         },
         link:{
             type: String,
@@ -32,16 +31,14 @@ export default {
     font-family: 'Montserrat', sans-serif;
 }
 .say-hello a{
+    background-color: #59A5D8;
+    border: none;
+    text-decoration: none;
+    color: #fff8ff;
     padding: 0.5rem 1rem;
     font-size: small;
     border-radius: 1rem;
     font-family: 'Montserrat', sans-serif;
-}
-.say-hello a{
-    background: #121113;
-    border: none;
-    text-decoration: none;
-    color: #fff8ff;
 }
 .say-hello a:hover{
     opacity: 80%;
